@@ -2,7 +2,7 @@
 <suite name="Maven_Page_Object_Model" verbose="1">
     <test thread-count="5" name="FirefoxTest">
         <parameter name="browser" value="firefox"></parameter>
-        <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+        <parameter name="appURL" value="https://rise.fairsketch.com/signin"></parameter>
         <classes>
             <class name="DinhDuy.testcases.TC01_LoginLogout">
             </class>
@@ -10,7 +10,7 @@
     </test>
     <test thread-count="5" name="ChromeTest">
         <parameter name="browser" value="chrome"></parameter>
-        <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+        <parameter name="appURL" value="https://rise.fairsketch.com/signin"></parameter>
         <classes>
             <class name="DinhDuy.testcases.TC01_LoginLogout">
             </class>
